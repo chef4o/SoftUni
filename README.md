@@ -26,4 +26,4 @@ End date: 				 14/12/2020
 Professional modules 		      [in progress]
 ---------------------------------------------------
 Java Advanced				  [pending]
-Start date:				 11/01/2021
+Start date:				 12/01/2021

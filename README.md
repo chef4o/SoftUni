@@ -17,6 +17,8 @@ End date: 				 19/10/2020
 ---------------------------------------------------
 Fundamentals module 			[completed]
 ---------------------------------------------------
+Programming Fundamentals with C#          [dropped]
+
 Programming Fundamentals with Java	[completed]
 Start date:				 14/09/2020
 End date: 				 14/12/2020

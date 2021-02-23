@@ -27,10 +27,10 @@ End date: 				 14/12/2020
 ---------------------------------------------------
 Professional modules 		      [in progress]
 ---------------------------------------------------
-Java Advanced				  [ongoing]
+Java Advanced				[completed]
 Start date:				 12/01/2021
 End date:				 21/02/2021
 
-Java OOP				  [pending]
+Java OOP				  [ongoing]
 Start date:				 23/02/2021
 End date:				 11/04/2021

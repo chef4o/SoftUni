@@ -31,6 +31,14 @@ Java Advanced				[completed]
 Start date:				 12/01/2021
 End date:				 21/02/2021
 
-Java OOP				  [ongoing]
+Java OOP				[completed]
 Start date:				 23/02/2021
 End date:				 11/04/2021
+
+MySQL					  [pending]
+Start date:				 20/05/2021
+End date:				 20/06/2021
+
+Spring Data				  [pending]
+Start date:				 21/06/2021
+End date:				 01/08/2021

@@ -113,7 +113,7 @@ public class TheBossDanceAdvanced {
             return playerPosition;
         }
 
-        //Movement Priority [DESCENDING]//
+        //Move Priority [DESCENDING]//
         // UP     ▲
         // RIGHT  ▶
         // DOWN   ▼

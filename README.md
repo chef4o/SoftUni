@@ -35,7 +35,7 @@ Java OOP				[completed]
 Start date:				 23/02/2021
 End date:				 11/04/2021
 
-MySQL					  [pending]
+MySQL					  [ongoing]
 Start date:				 20/05/2021
 End date:				 20/06/2021
 

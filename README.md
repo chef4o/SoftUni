@@ -42,3 +42,21 @@ End date:				 20/06/2021
 Spring Data				  [ongoing]
 Start date:				 21/06/2021
 End date:				 01/08/2021
+
+JS Advanced				[completed]
+Start Date:			13/09/2021
+End date:				23/10/2021
+
+JS Applications				[completed]
+Start Date:			25/10/2021
+End date:				16/12/2021
+
+---------------------------------------------------
+Open cources			      [in progress]
+---------------------------------------------------
+
+HTML/CSS				  [ongoing]
+Start date:				 12/01/2022
+
+Data Structures Fundamentals		  [ongoing]
+Start date:				 08/02/2022

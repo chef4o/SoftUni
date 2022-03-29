@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "chai": "^4.3.4"
+  },
+  "name": "03.-companyadministration",
+  "version": "1.0.0",
+  "main": "companyAdministration.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

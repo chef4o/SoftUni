@@ -63,5 +63,6 @@ Data Structures Fundamentals	 [completed]
 Start date:				  08/02/2022
 End date:				  16/12/2021
 
-Data Structures Advanced	    	     [ongoing]
+Data Structures Advanced	    	 [completed]
 Start date:				  05/04/2022
+End date:				  22/05/2022

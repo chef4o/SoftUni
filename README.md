@@ -51,9 +51,13 @@ JS Applications				 [completed]
 Start Date:			 	  25/10/2021
 End date:				  16/12/2021
 
-JS Back-End				[in progress]
+JS Back-End				[completed]
 Start Date:			 	  12/09/2022
 End date:				  30/10/2022
+
+Angular     			    	[in progress]
+Start Date:			 	  01/11/2022
+End date:				  21/12/2022
 
 
 -----------------------------------------------------------------------------

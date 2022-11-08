@@ -1,0 +1,53 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51); 
+}
+
+article {
+    float:left;
+    margin-top: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%;
+}
+
+h1,h2 {
+    font-family: serif;
+    margin-bottom: 0px;
+}
+
+article p {
+    font-size: 12px;
+}
+
+article ul {
+    font-size: 12px;
+}
+
+article section {
+    padding-top: 10px;
+}
+
+article date {
+    font-size: 12px;
+}
+
+article img {
+    max-width: 70%;
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+aside {
+    display: inline-block;
+    width: 15%;
+    font-size: 12px;
+}

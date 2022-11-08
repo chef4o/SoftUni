@@ -1,0 +1,53 @@
+html {
+    font-family: Helvetica, sans-serif;
+    padding: 20px;
+    overflow: auto;
+}
+
+header {
+    padding-left: 30px;
+    display: inline-flex;
+    align-items: baseline;
+}
+
+header h1 {
+    margin-bottom: 0;
+    float: left;
+    text-transform: uppercase;
+}
+
+header nav {
+    margin-left: 30px;
+    display: inline-block;  
+}
+
+header nav ul li {
+    font-weight: bold;
+    display: inline-block;  
+    margin: 0px 8px;
+}
+
+header nav ul li a {
+    font-size: 11px;
+    text-decoration: none;
+    color: seagreen;
+}
+
+.line {
+    padding-top: 10px;
+    border-bottom: 3px solid gray;
+}
+
+main {
+    padding-left: 20px;
+}
+
+main h2 {
+    font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+main p {
+    font-size: 11px;
+}

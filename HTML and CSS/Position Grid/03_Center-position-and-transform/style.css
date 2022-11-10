@@ -1,0 +1,58 @@
+body {
+    position: relative;
+    font-family: Georgia, serif;
+    margin: 0px;
+    background-color: rgb(238, 238, 238) ;
+}
+
+body > p {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10vh);
+    height: 70vh;
+    width: 70vh;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.card-content {
+    position: absolute;
+    padding: 0px 4vh 8vh 4vh;
+    bottom: 0;
+    width: 61.7vh;
+    height: 22vh;
+}
+
+.card-content p {
+    position: absolute;
+    top: 2em;
+}
+
+
+button {
+    position: absolute;
+    bottom: 3vh;
+    right: 3vh;
+    padding: 1vh 2vh;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+img {
+    position: absolute;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 70vh;
+    height: 40vh;
+    object-fit: fill;
+}

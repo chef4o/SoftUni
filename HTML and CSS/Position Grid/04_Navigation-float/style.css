@@ -1,0 +1,166 @@
+body {
+  margin: 5vh 5vw;
+  background-color: rgb(238, 238, 238);
+  font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  font-weight: 500;
+  font-size: 1em;
+  transform: scale(1.4, 1.4);
+}
+
+body > header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  border-bottom: 3px solid rgb(97, 97, 97);
+}
+
+header * {
+  vertical-align: top;
+  margin-top: 0;
+}
+
+body > header p {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+header nav {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  font-weight: 500;
+  font-size: 0.7em;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+header a {
+  color: rgb(0, 102, 0);
+  text-decoration: none;
+}
+
+main {
+  position: relative;
+  top: 20px;
+}
+
+main h1,
+h2 {
+  position: relative;
+  font-weight: 500;
+  font-size: 1em;
+  padding-left: 8.5vw;
+  transform: scale(1.4, 1.4);
+}
+
+main p {
+  font-size: 0.65em;
+  line-height: 1.6em;
+}
+
+article {
+  display: inline-block;
+  width: 60vw;
+}
+
+article img {
+  padding: 5px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25),
+    -5px -5px 20px rgba(0, 0, 0, 0.25);
+  background-color: rgb(255, 255, 255);
+}
+
+article header img {
+  float: right;
+  margin-left: 14px;
+  max-width: 22%;
+}
+
+article section {
+  padding-top: 1vh;
+}
+
+article section img {
+  float: left;
+  margin-right: 14px;
+  max-width: 24%;
+}
+
+article section div p:nth-child(3) {
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+  width: 50%;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+.quote * {
+  font-style: italic;
+  color: gray;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-size: 0.65em;
+}
+
+.quote {
+  float: right;
+  vertical-align: top;
+  width: 40%;
+  padding-left: 20px;
+  border-left: 2px solid rgb(97, 97, 97);
+  line-height: 1.5em;
+}
+
+.quote .author {
+  padding-top: 10px;
+  text-align: right;
+}
+
+aside {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 5vw;
+}
+
+aside h3 {
+  padding-left: 4vw;
+  transform: scale(1.2, 1.2);
+  margin-bottom: 0;
+}
+
+aside ul {
+  list-style: square;
+  font-weight: 500;
+  font-size: 0.7em;
+  line-height: 1.4em;
+}
+
+aside ul li {
+  margin-left: 14px;
+}
+
+aside a {
+  color: rgb(0, 102, 0);
+  text-decoration: none;
+}

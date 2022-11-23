@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 65vw;
+    align-items: center;
+}
+
+.week,
+.notes {
+    display: flex;
+    align-items: center;
+}
+
+.week {
+    flex-wrap: wrap;
+}
+
+.notes {
+    flex-direction: column;
+}
+
+span {
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.5rem;
+    height: 4rem;
+}
+
+.week span {
+    width: 20%;
+}
+
+.week span:nth-child(1),
+.week span:nth-child(7) {
+    width: 100%;
+}
+
+.week span:nth-child(8),
+.week span:nth-child(9) {
+    width: 50%;
+}
+
+.notes span {
+    height: 8rem;
+    min-width: 15vw; 
+}

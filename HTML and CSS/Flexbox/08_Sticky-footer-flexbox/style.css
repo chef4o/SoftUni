@@ -1,0 +1,53 @@
+@import url('https://use.fontawesome.com/releases/v6.0.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+@import url('./reset.css');
+
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 3px solid gray;
+}
+
+header h1 {
+    font-size: 2rem;
+    padding-left: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+main h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.4rem;
+    padding: 1rem 0 1rem 0;
+}
+
+main p {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    height: 5vh;
+}

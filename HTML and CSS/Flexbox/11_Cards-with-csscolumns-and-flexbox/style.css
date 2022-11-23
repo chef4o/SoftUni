@@ -1,0 +1,58 @@
+body {
+  margin: 5vh 15vw 5vh 15vw;
+  background-color: rgb(238, 238, 238);
+}
+
+h2 {
+  color: rgb(77, 77, 77);
+}
+
+.card {
+  border: 1px solid lightgray;
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  margin-bottom: 2.1vw;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card > img {
+  width: 100%;
+}
+
+.card > h3 {
+  margin-bottom: 0;
+  padding: 1rem;
+  padding-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.card > p {
+  margin-top: 0;
+  padding: 1rem;
+  padding-top: 0;
+  font-weight: normal;
+}
+
+.card > footer {
+  padding: 1rem;
+  align-self: flex-start;
+  border-top: 2px solid lightgray;
+}
+
+.masonry {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.flex .card {
+    width: 31%;
+}

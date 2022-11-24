@@ -1,0 +1,92 @@
+article {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+
+article img {
+  padding: 5px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25),
+    -5px -5px 20px rgba(0, 0, 0, 0.25);
+  background-color: rgb(255, 255, 255);
+}
+
+article header img {
+  float: right;
+  margin-left: 14px;
+  max-width: 22%;
+}
+
+article section {
+  padding-top: 1vh;
+}
+
+article section img {
+  float: left;
+  margin-right: 14px;
+  max-width: 24%;
+}
+
+.quote-row {
+  display: grid;
+  grid-template-columns: repeat(2, 0.8fr);
+  grid-template-areas: "pre-quote quote";
+  padding-bottom: 1rem;
+}
+
+.pre-quote {
+  grid-area: pre-quote;
+  padding: 0 1rem 0 0;
+}
+
+.quote {
+  grid-area: quote;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+}
+
+.quote * {
+  font-style: italic;
+  color: gray;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-size: 0.65em;
+}
+
+.quote {
+  vertical-align: top;
+  padding-left: 20px;
+  border-left: 2px solid rgb(97, 97, 97);
+  line-height: 1.5em;
+}
+
+.quote .author {
+  padding-top: 10px;
+  text-align: right;
+}
+
+@media (max-width: 500px) {
+  article header img,
+  article section img {
+    float: none;
+    margin: 0 0 1rem 0;
+    max-width: 80%;
+  }
+
+  .quote-row {
+    display: block;
+  }
+
+  blockquote {
+    margin-left: 1rem;
+  }
+
+  .pre-quote {
+    padding-bottom: 1rem;
+  }
+
+}

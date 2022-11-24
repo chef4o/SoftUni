@@ -1,0 +1,44 @@
+@import url('./reset.css');
+@import url('./typography.css');
+@import url('./header.css');
+
+header,
+aside,
+main,
+footer {
+    background-color: rgb(168, 212, 248);
+    border-radius: 0.2rem;
+    padding: 1rem 0.5rem;
+}
+
+body {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 15vw auto;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+    gap: 1rem;
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+main ul {
+    list-style-type: disc;
+    padding: 1rem 0 0 3rem;
+}

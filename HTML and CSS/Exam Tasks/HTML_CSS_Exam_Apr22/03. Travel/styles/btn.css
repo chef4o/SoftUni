@@ -1,0 +1,28 @@
+.main-card .shuttle-card button {
+  border: 2px solid white;
+  padding: 5px 10px;
+  color: orange;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.main-card .shuttle-card button:hover {
+  background-color: white;
+  color: orange;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.main-card .budapest-card button,
+.newsletter button {
+  border: 2px solid white;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.main-card .budapest-card button:hover,
+.newsletter button:hover {
+  background-color: white;
+  color: var(--color-tobacco);
+}

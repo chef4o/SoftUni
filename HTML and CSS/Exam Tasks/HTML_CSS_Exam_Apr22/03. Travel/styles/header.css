@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2rem 2rem 0 2rem;
+}
+
+header .logo--bkg,
+header .logo--img {
+  position: absolute;
+  top: 30px;
+  left: 350px;
+  padding: 20px;
+  width: 195px;
+  height: 135px;
+}
+
+header .logo--bkg {
+  z-index: 0;
+  background-image: var(--logo-bcg);
+}
+
+header .logo--img {
+  z-index: 10;
+  background-image: url("../image/logo.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header nav .menus *,
+header nav .pages * {
+  color: var(--color-blue-gray);
+}
+
+header .menus,
+header .pages {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  justify-content: right;
+}
+
+header .menus li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 130px;
+  padding: 10px 0;
+}
+
+header .menus a {
+  padding: 10px 0;
+}
+
+header li:hover a, 
+header li:hover p, 
+header li:hover i {
+  background-color: var(--color-tobacco);
+  color: white;
+}
+
+header .menus li i {
+  font-size: 1.6rem;
+}
+
+header .menus li p,
+header .pages li a {
+  font-weight: 600;
+}
+
+header .pages {
+  padding-right: 1.6rem;
+}
+
+header .pages li a {
+  padding: 10px 10px;
+}

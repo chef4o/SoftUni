@@ -1,0 +1,187 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url("./reset.css");
+@import url("./typography.css");
+@import url("./btn.css");
+@import url("./header.css");
+
+:root {
+  --color-gray-light: #fafafa;
+  --color-gray-dark: #6e6e6e;
+  --color-blue-gray: #505970;
+  --color-tobacco: #ceaa3a;
+  --logo-bcg: linear-gradient(
+    to bottom,
+    #ceaa3a,
+    #c19a2f,
+    #b38a24,
+    #a67b19,
+    #986c0d
+  );
+  --main-bck: linear-gradient(
+    to left,
+    #ceaa3a,
+    #b38a24,
+    #a67b19,
+    #986c0d,
+    #986c0d
+  );
+  --newsletter-bck: linear-gradient(
+    to right,
+    #ceaa3a,
+    #b38a24,
+    #a67b19,
+    #986c0d,
+    #986c0d
+  );
+  --shadow-base: 1px 4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  position: relative;
+  padding: 0 280px 0;
+}
+
+main {
+  padding-top: 7px;
+}
+
+main .images {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main .main-card {
+  height: 800px;
+  background-image: var(--main-bck);
+}
+
+main .images img {
+  height: 500px;
+}
+
+.main-card .shuttle-card {
+  position: absolute;
+  top: 300px;
+  left: 380px;
+  padding: 30px 20px 20px;
+  width: 460px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-card .shuttle-card h2,
+.main-card .shuttle-card p {
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+.main-card .shuttle-card h2 {
+  padding-bottom: 16px;
+}
+
+.main-card .shuttle-card p {
+  padding-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.main-card .budapest-card * {
+  color: white;
+}
+
+.main-card .budapest-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.main-card .budapest-card ul {
+  padding-top: 10px;
+  width: 480px;
+}
+
+.main-card .budapest-card ul li {
+  letter-spacing: 0.05em;
+  padding-bottom: 10px;
+}
+
+.main-card .budapest-card ul i {
+  padding-right: 4px;
+}
+
+.services-card * {
+  color: var(--color-blue-gray);
+}
+
+.services-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 300px 30px;
+}
+
+.services-card h1 {
+  padding-top: 20px;
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.services-card > p {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.services-card ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.services-card ul li {
+  text-align: center;
+  width: 150px;
+}
+
+.services-card ul li p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.services-card ul li img {
+  object-fit: cover;
+  padding: 2px;
+  height: 140px;
+  width: 140px;
+  border: 2px solid var(--color-blue-gray);
+  border-radius: 50%;
+}
+
+.newsletter {
+  padding: 10px 16px;
+}
+.newsletter * {
+  color: white;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  background-image: var(--newsletter-bck);
+}
+
+.newsletter div h4,
+.newsletter div p {
+  font-size: 0.8rem;
+}
+
+.newsletter div h4 {
+  font-weight: 700;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  font-size: 0.8rem;
+}

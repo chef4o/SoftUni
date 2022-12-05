@@ -1,0 +1,16 @@
+card-container {
+    background-color: rgb(243, 242, 242);
+    padding-bottom: 1rem;
+}
+
+card-content h2,
+card-content p {
+    margin: 0.4rem 0.8rem 0;
+}
+
+card-content p {
+    color: gray;
+    font-weight: 400;
+    word-spacing: 1px;
+    line-height: 1.2rem;
+}

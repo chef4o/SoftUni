@@ -1,0 +1,192 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url("./reset.css");
+@import url("./typography.css");
+@import url("./btn.css");
+@import url("./header.css");
+@import url("./footer.css");
+
+:root {
+  --color-gray-light: #fafafa;
+  --color-gray: #7b7b7b;
+  --color-dark-gray: #3b3b3b;
+  --color-orange: #f85416;
+
+  --main-bck: linear-gradient(
+    to left,
+    #ceaa3a,
+    #b38a24,
+    #a67b19,
+    #986c0d,
+    #986c0d
+  );
+  
+  --shadow-base: 1px 4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main h2 {
+  text-align: center;
+  padding-top: 220px;
+  color: black;
+  font-weight: 900;
+  font-size: 3.2rem;
+  letter-spacing: -2px;
+}
+
+main p {
+  justify-content: space-around;
+  padding: 0 30vw;
+  text-align: center;
+}
+
+main card-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 8rem;
+}
+
+card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 360px;
+  height: 480px;
+  padding: 4rem 1rem;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 0.8rem;
+}
+
+card-logo {
+  padding-bottom: 4rem;
+}
+
+card-logo img:nth-child(1) {
+  position: relative;
+  top: 38px;
+  padding-bottom: 1.8rem;
+  z-index: 1;
+}
+
+card-logo img:nth-child(2) {
+  position: absolute;
+  left: 96px;
+  padding-bottom: 1.8rem;
+  z-index: 0;
+}
+
+.cart-text {
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+card-section h3 {
+  letter-spacing: -1px;
+}
+
+.pets {
+  position: relative;
+  padding: 12rem 0 6rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 120px;
+}
+
+.pets .cat-img {
+  width: 460px;
+}
+
+.pets .cat-text h2,
+.pets .cat-text p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.pets .cat-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 28vw;
+  max-width: 540px;
+  padding-top: 6rem;
+}
+
+.pets .cat-text h2 {
+  font-weight: 100;
+  letter-spacing: normal;
+  margin-bottom: -20px;
+}
+
+.pets .cat-text .text-bold {
+  font-weight: 900;
+}
+
+.pets .cat-text p {
+  margin-top: 2.8rem;
+  line-height: 1.8rem;
+}
+
+.why-us {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.why-us img {
+  height: 620px;
+}
+
+.why-us-text-box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 38vw;
+  left: 30vw;
+}
+
+.why-us-text-box h2,
+.why-us-text-box h3,
+.why-us-text-box div {
+  color: white;
+  text-align: center;
+}
+
+.why-us-text-box h2 {
+  padding: 10rem 0 1.8rem;
+  margin: 0;
+}
+
+.why-us-text-box h3 {
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
+.why-us-text-box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-us-text-box div .btn {
+  margin: 0;
+  margin-right: 2rem;
+}
+
+.why-us-text-box div p {
+  display: flex;
+  padding: 0;
+  margin-right: 1rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.why-us-text-box div p:nth-child(3) {
+  font-weight: 500;
+}

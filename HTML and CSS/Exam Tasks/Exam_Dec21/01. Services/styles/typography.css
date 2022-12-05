@@ -1,0 +1,42 @@
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+* {
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+h2 {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.6rem;
+}
+
+blockquote {
+  border-left: rgb(222, 222, 222);
+  font-style: italic;
+}

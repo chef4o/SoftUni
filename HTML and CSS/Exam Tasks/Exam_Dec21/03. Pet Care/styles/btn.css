@@ -1,0 +1,29 @@
+.btn {
+  margin-top: 3rem;
+  padding: 1rem 2.8rem;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+
+.contact-us {
+  border: 1px solid white;
+  color: var(--color-orange);
+  background-color: white;
+}
+
+.contact-us:hover {
+  background-color: var(--color-orange);
+  color: white;
+}
+
+.about-us {
+  border: 1px solid var(--color-orange);
+  color: white;
+  background-color: var(--color-orange);
+  width: 12rem;
+}
+
+.about-us:hover {
+  background-color: white;
+  color: var(--color-orange);
+}

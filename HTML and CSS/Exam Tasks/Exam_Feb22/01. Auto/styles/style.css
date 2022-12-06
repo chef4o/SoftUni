@@ -1,0 +1,75 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url("./reset.css");
+@import url("./typography.css");
+
+:root {
+  --color-gray-light: #fafafa;
+  --color-blue-gray: #505970;
+
+  --main-bck: linear-gradient(
+    to left,
+    #ceaa3a,
+    #b38a24,
+    #a67b19,
+    #986c0d,
+    #986c0d
+  );
+
+  --shadow-base: 1px 4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  margin: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+}
+
+main .container {
+  width: 30vw;
+}
+
+main section {
+  width: 40vw;
+}
+
+main section h1 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+main section p {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+main ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+main ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.2rem 0;
+}
+
+main ul li div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-weight: bold;
+}
+
+main ul li h2 {
+  font-weight: bold;
+}
+
+main ul li img {
+  height: 80px;
+  width: 80px;
+  margin-left: -10px;
+}

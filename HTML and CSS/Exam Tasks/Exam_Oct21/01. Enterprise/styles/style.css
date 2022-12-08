@@ -1,0 +1,66 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url("./reset.css");
+@import url("./typography.css");
+@import url("./btn.css");
+@import url("./header.css");
+
+:root {
+  --color-gray-light: #f6f8f9;
+  ;
+  --color-blue: #786eff;
+
+  --main-bck: linear-gradient(
+    to left,
+    #ceaa3a,
+    #b38a24,
+    #a67b19,
+    #986c0d,
+    #986c0d
+  );
+  
+  --shadow-base: 1px 4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  margin: 2rem 0;
+  padding: 2.8rem 2rem;
+  width: 720px;
+  gap: 2rem;
+  background-color: var(--color-gray-light);
+  border-radius: 6px;
+}
+
+article {
+  justify-content: left;
+  width: 300px;
+}
+
+article h5 {
+  padding-bottom: 0.4rem;
+}
+
+article h1,
+article p {
+  padding-bottom: 1rem;
+}
+
+article p {
+  color: gray;
+}
+
+img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+}

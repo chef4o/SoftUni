@@ -1,0 +1,210 @@
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+@import url("./reset.css");
+@import url("./typography.css");
+@import url("./btn.css");
+@import url("./header.css");
+
+:root {
+  --color-gray-light: #efefef;
+  --color-gray: #969494;
+  
+  --innner-glow: inset 0 0 10px var(--color-gray);
+}
+
+body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 760px;
+}
+
+card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 0 1rem; 
+  background-color: var(--color-gray-light);
+}
+
+.jade-template img {
+  position: absolute;
+  bottom: 0;
+  right: 4rem;
+  height: 85%;
+}
+
+.card-text h2,
+.card-text p {
+  padding-bottom: 1rem;
+}
+
+.jade-template {
+  flex-direction: column;
+}
+
+.jade-template nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.6rem;
+  padding-bottom: 1rem;
+  font-size: 0.6rem;
+  
+}
+
+.jade-template container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.jade-template .card-text {
+  padding: 1rem 0 0 3rem;
+  width: 280px;
+}
+
+.line.v-line {
+  height: 2.6rem;
+  border-left: 1px solid var(--color-gray);
+}
+
+.my-name img {
+  position: absolute;
+  top: 2.8rem;
+  left: 2.8rem;
+  height: 70%;
+}
+
+.line.h-line {
+  display: inline-block;
+  margin-right: 0.4rem;
+  width: 1.8rem;
+  height: 0.4rem;
+  border-top: 1px solid var(--color-gray);
+}
+
+.my-name {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.my-name .card-text {
+  margin-right: 4rem;
+  width: 300px
+}
+
+.social {
+display: flex;
+flex-direction: row;
+gap: 0.6rem;
+}
+
+.social a {
+position: relative;
+}
+
+.social i {
+  font-size: 0.6rem;
+  text-align: center;
+  color: white;
+  background-color: var(--color-gray);
+  width: 1.2rem;
+  padding: 0.3rem;
+}
+
+.picture {
+  background-image: url(../images/thumb-1.jpeg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.ut-enim {
+  position: relative;
+}
+
+.ut-enim img {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  height: 70%;
+}
+
+.ut-enim container {
+  padding: 3rem 0 0 3rem;
+  width: 240px;
+}
+
+.gallery {
+  position: relative;
+}
+
+.gallery img {
+  position: absolute;
+}
+
+#img1, 
+#img3 {
+  height: 50%;
+}
+
+#img2 {
+  height: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+#img1 {
+  height: 50%;
+  top: 25%;
+  right: 43%;
+  transform: translate(-50%);
+}
+
+#img3 {
+  height: 50%;
+  top: 25%;
+  left: 75%;
+  transform: translate(-50%);
+}
+
+.say-hello {
+  flex-direction: column;
+  align-items: center;
+}
+
+.say-hello p {
+  text-align: center;
+}
+
+.say-hello form * {
+  font-size: 0.6rem;
+  padding: 0.2rem;
+}
+
+.say-hello form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  flex-direction: row;
+  width: 300px;
+}
+
+.say-hello form #email,
+.say-hello form #subject {
+  width: 45%;
+}
+
+.say-hello form #message {
+  margin: 1rem 0 1rem;
+  width: 95%;
+  height: 4rem;
+}
+
+form #message::placeholder {
+  position: absolute;
+}

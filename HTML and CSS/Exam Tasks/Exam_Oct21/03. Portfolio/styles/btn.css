@@ -1,0 +1,13 @@
+button {
+  width: 95%;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  margin-bottom: 2.2rem;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}

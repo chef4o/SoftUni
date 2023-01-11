@@ -39,7 +39,7 @@ MySQL					 [completed]
 Start date:				  20/05/2021
 End date:				  20/06/2021
 
-Spring Data			    	[in progress]
+Spring Data			    	 [completed]
 Start date:				  21/06/2021
 End date:				  01/08/2021
 
@@ -59,6 +59,9 @@ Angular     			    	[in progress]
 Start Date:			 	  01/11/2022
 End date:				  21/12/2022
 
+Spring Fundamentals		    	[in progress]
+Start Date:			 	  09/01/2023
+End date:				  18/02/2023
 
 -----------------------------------------------------------------------------
 Open cources		  		[in progress]
@@ -72,6 +75,6 @@ Data Structures Fundamentals		 [completed]
 Start date:				  08/02/2022
 End date:				  16/12/2021
 
-Data Structures Advanced			 [completed]
+Data Structures Advanced		 [completed]
 Start date:				  05/04/2022
 End date:				  22/05/2022

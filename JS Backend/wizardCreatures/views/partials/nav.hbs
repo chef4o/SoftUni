@@ -1,0 +1,19 @@
+<nav>
+    <img src="/static/img/logo.png" alt="logo">
+
+    <ul class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/catalog">All Posts</a></li>
+
+        {{#if user}}
+        <!-- Logged users -->
+        <li><a href="/catalog/creatures/create">Create Post</a></li>
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/auth/logout">Logout</a></li>
+        {{else}}
+        <!-- Guest users -->
+        <li><a href="/auth/register">Register</a></li>
+        <li><a href="/auth/login">Login</a></li>
+        {{/if}}
+    </ul>
+</nav>
